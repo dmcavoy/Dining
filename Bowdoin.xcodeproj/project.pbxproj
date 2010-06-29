@@ -1,0 +1,354 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* BowdoinAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* BowdoinAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+		A1052F7F1027620100102064 /* GrillAreaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1052F7D1027620100102064 /* GrillAreaViewController.m */; };
+		A10CCD6010B83998009EDC97 /* HourScrollViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A10CCD5F10B83998009EDC97 /* HourScrollViewController.xib */; };
+		A10CCD6810B839F3009EDC97 /* GrillAreaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A10CCD6710B839F3009EDC97 /* GrillAreaViewController.xib */; };
+		A11D80BB1093EF7D00FB7035 /* bear.png in Resources */ = {isa = PBXBuildFile; fileRef = A11D80381093EF7C00FB7035 /* bear.png */; };
+		A11D80C01093EF7D00FB7035 /* BSmall.png in Resources */ = {isa = PBXBuildFile; fileRef = A11D80411093EF7C00FB7035 /* BSmall.png */; };
+		A11D81101093EF7D00FB7035 /* ContentAreaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A11D80AF1093EF7D00FB7035 /* ContentAreaViewController.xib */; };
+		A11D81161093EF7D00FB7035 /* InfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A11D80B71093EF7D00FB7035 /* InfoViewController.xib */; };
+		A11D81181093EF7D00FB7035 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = A11D80B91093EF7D00FB7035 /* MainWindow.xib */; };
+		A11D81191093EF7D00FB7035 /* XMLFeedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A11D80BA1093EF7D00FB7035 /* XMLFeedViewController.xib */; };
+		A174D0B510B834E20038BAF6 /* HourInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A174D0B310B834E20038BAF6 /* HourInfoViewController.m */; };
+		A17B0AEF109A41F5006B3070 /* HourInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A17B0AEE109A41F5006B3070 /* HourInfoViewController.xib */; };
+		A1BF177F109E5518004AA7EB /* Magees3.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A1BF177E109E5518004AA7EB /* Magees3.pdf */; };
+		A1BF17BF109E5842004AA7EB /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A1BF17BE109E5842004AA7EB /* Default.png */; };
+		A1F858EF1023851A0098EF00 /* XMLFeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F858ED1023851A0098EF00 /* XMLFeedViewController.m */; };
+		A1F859D610238A6D0098EF00 /* ContentAreaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F859D410238A6D0098EF00 /* ContentAreaViewController.m */; };
+		A1FB4779108119C0001F9285 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1FB4778108119C0001F9285 /* SystemConfiguration.framework */; };
+		A1FB4832108150CC001F9285 /* HourScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1FB4830108150CC001F9285 /* HourScrollViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* BowdoinAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BowdoinAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* BowdoinAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BowdoinAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* Bowdoin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bowdoin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* Bowdoin_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bowdoin_Prefix.pch; sourceTree = "<group>"; };
+		A1052F7C1027620100102064 /* GrillAreaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrillAreaViewController.h; sourceTree = "<group>"; };
+		A1052F7D1027620100102064 /* GrillAreaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrillAreaViewController.m; sourceTree = "<group>"; };
+		A10CCD5F10B83998009EDC97 /* HourScrollViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = HourScrollViewController.xib; path = "iPhone Development/Bowdoin/HourScrollViewController.xib"; sourceTree = DEVELOPER_DIR; };
+		A10CCD6710B839F3009EDC97 /* GrillAreaViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = GrillAreaViewController.xib; path = "iPhone Development/Bowdoin/GrillAreaViewController.xib"; sourceTree = DEVELOPER_DIR; };
+		A11D80381093EF7C00FB7035 /* bear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bear.png; path = "iPhone Development/Bowdoin/bear.png"; sourceTree = DEVELOPER_DIR; };
+		A11D80401093EF7C00FB7035 /* Bowdoin_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Bowdoin_Prefix.pch; path = "iPhone Development/Bowdoin/Bowdoin_Prefix.pch"; sourceTree = DEVELOPER_DIR; };
+		A11D80411093EF7C00FB7035 /* BSmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BSmall.png; path = "iPhone Development/Bowdoin/BSmall.png"; sourceTree = DEVELOPER_DIR; };
+		A11D80AF1093EF7D00FB7035 /* ContentAreaViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ContentAreaViewController.xib; path = "iPhone Development/Bowdoin/ContentAreaViewController.xib"; sourceTree = DEVELOPER_DIR; };
+		A11D80B71093EF7D00FB7035 /* InfoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = InfoViewController.xib; path = "iPhone Development/Bowdoin/InfoViewController.xib"; sourceTree = DEVELOPER_DIR; };
+		A11D80B91093EF7D00FB7035 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MainWindow.xib; path = "iPhone Development/Bowdoin/MainWindow.xib"; sourceTree = DEVELOPER_DIR; };
+		A11D80BA1093EF7D00FB7035 /* XMLFeedViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = XMLFeedViewController.xib; path = "iPhone Development/Bowdoin/XMLFeedViewController.xib"; sourceTree = DEVELOPER_DIR; };
+		A174D0B310B834E20038BAF6 /* HourInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HourInfoViewController.m; path = "iPhone Development/Bowdoin/Classes/HourInfoViewController.m"; sourceTree = DEVELOPER_DIR; };
+		A174D0B410B834E20038BAF6 /* HourInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HourInfoViewController.h; path = "iPhone Development/Bowdoin/Classes/HourInfoViewController.h"; sourceTree = DEVELOPER_DIR; };
+		A17B0AEE109A41F5006B3070 /* HourInfoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = HourInfoViewController.xib; path = "iPhone Development/Bowdoin/HourInfoViewController.xib"; sourceTree = DEVELOPER_DIR; };
+		A1BF177E109E5518004AA7EB /* Magees3.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = Magees3.pdf; path = "iPhone Development/Bowdoin/Magees3.pdf"; sourceTree = DEVELOPER_DIR; };
+		A1BF17BE109E5842004AA7EB /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = "iPhone Development/Bowdoin/Default.png"; sourceTree = DEVELOPER_DIR; };
+		A1DCFED210AA02B000A266C3 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "iPhone Development/Bowdoin/Info.plist"; sourceTree = DEVELOPER_DIR; };
+		A1F858EC1023851A0098EF00 /* XMLFeedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLFeedViewController.h; sourceTree = "<group>"; };
+		A1F858ED1023851A0098EF00 /* XMLFeedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLFeedViewController.m; sourceTree = "<group>"; };
+		A1F859D310238A6D0098EF00 /* ContentAreaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentAreaViewController.h; sourceTree = "<group>"; };
+		A1F859D410238A6D0098EF00 /* ContentAreaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentAreaViewController.m; sourceTree = "<group>"; };
+		A1FB4778108119C0001F9285 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = /System/Library/Frameworks/SystemConfiguration.framework; sourceTree = "<absolute>"; };
+		A1FB482F108150CC001F9285 /* HourScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HourScrollViewController.h; path = "iPhone Development/Bowdoin/Classes/HourScrollViewController.h"; sourceTree = DEVELOPER_DIR; };
+		A1FB4830108150CC001F9285 /* HourScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HourScrollViewController.m; path = "iPhone Development/Bowdoin/Classes/HourScrollViewController.m"; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
+				A1FB4779108119C0001F9285 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623240D0F684500981E51 /* BowdoinAppDelegate.h */,
+				A174D0B310B834E20038BAF6 /* HourInfoViewController.m */,
+				A174D0B410B834E20038BAF6 /* HourInfoViewController.h */,
+				1D3623250D0F684500981E51 /* BowdoinAppDelegate.m */,
+				A1F858EC1023851A0098EF00 /* XMLFeedViewController.h */,
+				A1F858ED1023851A0098EF00 /* XMLFeedViewController.m */,
+				A1052F7C1027620100102064 /* GrillAreaViewController.h */,
+				A1052F7D1027620100102064 /* GrillAreaViewController.m */,
+				A1F859D310238A6D0098EF00 /* ContentAreaViewController.h */,
+				A1F859D410238A6D0098EF00 /* ContentAreaViewController.m */,
+				A1FB482F108150CC001F9285 /* HourScrollViewController.h */,
+				A1FB4830108150CC001F9285 /* HourScrollViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* Bowdoin.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				A11D80321093EF4600FB7035 /* Resources */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* Bowdoin_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A1FB4778108119C0001F9285 /* SystemConfiguration.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A11D80321093EF4600FB7035 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A1DCFED210AA02B000A266C3 /* Info.plist */,
+				A11D80BA1093EF7D00FB7035 /* XMLFeedViewController.xib */,
+				A11D80AF1093EF7D00FB7035 /* ContentAreaViewController.xib */,
+				A10CCD6710B839F3009EDC97 /* GrillAreaViewController.xib */,
+				A10CCD5F10B83998009EDC97 /* HourScrollViewController.xib */,
+				A17B0AEE109A41F5006B3070 /* HourInfoViewController.xib */,
+				A11D80B71093EF7D00FB7035 /* InfoViewController.xib */,
+				A11D80401093EF7C00FB7035 /* Bowdoin_Prefix.pch */,
+				A11D80381093EF7C00FB7035 /* bear.png */,
+				A11D80B91093EF7D00FB7035 /* MainWindow.xib */,
+				A11D80411093EF7C00FB7035 /* BSmall.png */,
+				A1BF17BE109E5842004AA7EB /* Default.png */,
+				A1BF177E109E5518004AA7EB /* Magees3.pdf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* Bowdoin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Bowdoin" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Bowdoin;
+			productName = Bowdoin;
+			productReference = 1D6058910D05DD3D006BFB54 /* Bowdoin.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Bowdoin" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* Bowdoin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A11D80BB1093EF7D00FB7035 /* bear.png in Resources */,
+				A11D80C01093EF7D00FB7035 /* BSmall.png in Resources */,
+				A11D81101093EF7D00FB7035 /* ContentAreaViewController.xib in Resources */,
+				A11D81161093EF7D00FB7035 /* InfoViewController.xib in Resources */,
+				A11D81181093EF7D00FB7035 /* MainWindow.xib in Resources */,
+				A11D81191093EF7D00FB7035 /* XMLFeedViewController.xib in Resources */,
+				A17B0AEF109A41F5006B3070 /* HourInfoViewController.xib in Resources */,
+				A1BF177F109E5518004AA7EB /* Magees3.pdf in Resources */,
+				A1BF17BF109E5842004AA7EB /* Default.png in Resources */,
+				A10CCD6010B83998009EDC97 /* HourScrollViewController.xib in Resources */,
+				A10CCD6810B839F3009EDC97 /* GrillAreaViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* BowdoinAppDelegate.m in Sources */,
+				A1F858EF1023851A0098EF00 /* XMLFeedViewController.m in Sources */,
+				A1F859D610238A6D0098EF00 /* ContentAreaViewController.m in Sources */,
+				A1052F7F1027620100102064 /* GrillAreaViewController.m in Sources */,
+				A1FB4832108150CC001F9285 /* HourScrollViewController.m in Sources */,
+				A174D0B510B834E20038BAF6 /* HourInfoViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Edwin Johnson (G75L79ZLFA)";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Bowdoin_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				PRODUCT_NAME = Bowdoin;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "A0A5CBB4-73BC-4998-B25B-2A6FF07C0389";
+				SDKROOT = iphoneos3.1.2;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Bowdoin_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 2.2.1;
+				PRODUCT_NAME = Bowdoin;
+				SDKROOT = iphoneos3.1.2;
+			};
+			name = Release;
+		};
+		A119F7F410B387DB00A47F68 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.1.2;
+			};
+			name = Distribution;
+		};
+		A119F7F510B387DB00A47F68 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Bowdoin College";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Bowdoin_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 2.2.1;
+				PRODUCT_NAME = Bowdoin;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "0C61B2C4-F5F7-4ECC-9C22-8C521D19BC32";
+				SDKROOT = iphoneos3.1.2;
+			};
+			name = Distribution;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Bowdoin College";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "0C61B2C4-F5F7-4ECC-9C22-8C521D19BC32";
+				SDKROOT = iphoneos3.1.2;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.1.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Bowdoin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+				A119F7F510B387DB00A47F68 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Bowdoin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+				A119F7F410B387DB00A47F68 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
